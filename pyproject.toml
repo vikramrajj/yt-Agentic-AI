@@ -1,0 +1,17 @@
+[project]
+name = "yt-agentic-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "vikram rajpurohit", email = "vikramraj95@live.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+yt-agentic-ai = "yt_agentic_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
